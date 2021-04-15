@@ -82,7 +82,8 @@ class Qatnashchi extends Model
         'desired_status' => 'string',
         'need_visa' => 'string',
         'accompanying_person' => 'string',
-        'comments' => 'string'
+        'comments' => 'string',
+        'tolov' => 'string',
     ];
 
     /**

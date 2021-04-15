@@ -38,6 +38,7 @@ class QatnashchiFactory extends Factory
         'need_visa' => $this->faker->word,
         'accompanying_person' => $this->faker->word,
         'comments' => $this->faker->word,
+        'tolov' => $this->faker->number,
         'created_at' => $this->faker->date('Y-m-d H:i:s'),
         'updated_at' => $this->faker->date('Y-m-d H:i:s')
         ];

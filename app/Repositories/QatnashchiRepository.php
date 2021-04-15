@@ -32,7 +32,8 @@ class QatnashchiRepository extends BaseRepository
         'desired_status',
         'need_visa',
         'accompanying_person',
-        'comments'
+        'comments',
+        'string',
     ];
 
     /**

@@ -32,6 +32,7 @@ class CreateQatnashchisTable extends Migration
             $table->string('need_visa');
             $table->string('accompanying_person');
             $table->string('comments');
+            $table->string('tolov')->default(0);
             $table->timestamps();
             $table->softDeletes();
         });
