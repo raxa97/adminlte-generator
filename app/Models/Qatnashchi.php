@@ -84,6 +84,8 @@ class Qatnashchi extends Model
         'accompanying_person' => 'string',
         'comments' => 'string',
         'tolov' => 'string',
+        'tolov_info' => 'text',
+
     ];
 
     /**

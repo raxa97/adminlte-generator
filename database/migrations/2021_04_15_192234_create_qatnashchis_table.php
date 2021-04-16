@@ -33,6 +33,7 @@ class CreateQatnashchisTable extends Migration
             $table->string('accompanying_person');
             $table->string('comments');
             $table->string('tolov')->default(0);
+            $table->string('tolov_info');
             $table->timestamps();
             $table->softDeletes();
         });
